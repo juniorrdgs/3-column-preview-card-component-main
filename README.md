@@ -30,4 +30,4 @@ Projeto desenvolvido para treino e auxílio no desenvolvimento das habilidades c
 ## Autor
 
 - Github Pages - [Junior Rodrigues](https://juniorrdgs.github.io)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/juniorrdgs)
+- Frontend Mentor - [@juniorrdgs](https://www.frontendmentor.io/profile/juniorrdgs)
