@@ -16,3 +16,132 @@
     box-sizing: 0;
 }
 
+body {
+    background: var(--backHeadBtn);
+    max-width: 1440px;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cards img {
+    width: 50px;
+}
+
+.cards h1 {
+    font-size: 25px;
+    font-family: var(--shoulders);
+    text-transform: uppercase;
+    color: var(--backHeadBtn);
+    margin: 20px 0;
+}
+
+.cards p {
+    font-family: var(--lexend);
+    margin: 15px 10px 10px 0;
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+.card1, .card2, .card3 {
+    width: 150px;
+    color: var(--paragraphs);
+    padding: 35px;
+}
+
+.card1 {
+    background: var(--orange);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+}
+
+.card2 {
+    background: var(--darkCyan);
+}
+
+.card3 {
+    background: var(--veryDarkCyan);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.btn {
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    background: var(--backHeadBtn);
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--lexend);
+    font-size: 13px;
+    margin-top: 70px;
+}
+
+.card1 .btn {
+    color: var(--orange);
+}
+
+.card2 .btn {
+    color: var(--darkCyan);
+}
+
+.card3 .btn {
+    color: var(--veryDarkCyan);
+}
+
+.attribution {
+    margin-top: 20px;
+    font-family: var(--lexend);
+}
+
+@media(max-width: 375px) {
+    body {
+        height: 100%;
+    }
+
+    .cards {
+        margin-top: 40px;
+        width: 350px;
+        flex-direction: column;
+    }
+
+    .card1, .card2, .card3 {
+        width: 170px;
+    }
+
+    .card1 {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 7px;
+    }
+
+    .card3 {
+        border-bottom-left-radius: 7px;
+        border-top-right-radius: 0;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+
+    .attribution {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
